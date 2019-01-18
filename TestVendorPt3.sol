@@ -1,10 +1,10 @@
 pragma solidity 0.4.25;
 
-import "./VendorPt4.sol";
+import "./VendorPt3.sol";
 
-contract TestVendorPt4 is VendorPt4 {
+contract TestVendorPt3 is VendorPt3 {
 
-  VendorPt4 vendor = new VendorPt4();
+  VendorPt3 vendor = new VendorPt3();
   
   function test_AddItem() {
     assert(vendor.getItemCount("Hats") == 0);
